@@ -24,11 +24,6 @@ document.getElementById("myBtnJugar").addEventListener("click", function () {
       jugadaGanador = "El Humano Gana";
       puntajeJugador += 1;
     }
-
-    //Verificaccion de datos de cada uego individual por consola
-    console.log(
-      `La Maquina jugo ${jugadaMaquina} y tu jugaste ${jugadaJugador} el gnador es ${jugadaGanador}`
-    );
   }
 
   //Mensaje final con Resultados de todos los juegos.
